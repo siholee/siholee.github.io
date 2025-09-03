@@ -3,13 +3,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  /* Primary Color System */
+  --color-primary-50: 254 248 248;
+  --color-primary-100: 251 228 227;
+  --color-primary-200: 248 210 209;
+  --color-primary-300: 247 202 201;
+  --color-primary-400: 244 186 185;
+  --color-primary-500: 240 170 169;
+  --color-primary-600: 234 168 167;
+  --color-primary-700: 220 140 139;
+  --color-primary-800: 190 120 119;
+  --color-primary-900: 160 100 99;
 }
 
 @media (prefers-color-scheme: dark) {

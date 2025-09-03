@@ -20,31 +20,31 @@ import {
 const tabs = [
   {
     name: 'GX',
-    href: '/GX',
+    href: '/app/GX',
     icon: UserGroupIcon,
     iconSolid: UserGroupIconSolid,
   },
   {
     name: '캘린더',
-    href: '/calendar',
+    href: '/app/calendar',
     icon: CalendarDaysIcon,
     iconSolid: CalendarDaysIconSolid,
   },
   {
     name: '홈',
-    href: '/',
+    href: '/app',
     icon: HomeIcon,
     iconSolid: HomeIconSolid,
   },
   {
     name: '문의',
-    href: '/contact',
+    href: '/app/contact',
     icon: ChatBubbleLeftEllipsisIcon,
     iconSolid: ChatBubbleLeftEllipsisIconSolid,
   },
   {
     name: '설정',
-    href: '/settings',
+    href: '/app/settings',
     icon: Cog6ToothIcon,
     iconSolid: Cog6ToothIconSolid,
   },
@@ -66,8 +66,8 @@ export default function BottomTabBar() {
               href={tab.href}
               className={`flex flex-col items-center py-2 px-1 text-xs font-medium transition-colors ${
                 isActive
-                  ? 'text-indigo-600 dark:text-indigo-400'
-                  : 'text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400'
+                  ? 'text-primary-600 dark:text-primary-400'
+                  : 'text-gray-500 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400'
               }`}
             >
               <Icon className="h-6 w-6 mb-1" />
